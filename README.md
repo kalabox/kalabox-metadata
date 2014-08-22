@@ -1,0 +1,1 @@
+This will be the canonical repository for what kalabox plugins will look like

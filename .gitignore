@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+*.log
+cache
+dist
+built
+downloads
+generated
+node_modules
+vendor
+style.css
+coverage
