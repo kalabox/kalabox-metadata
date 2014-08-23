@@ -1,0 +1,39 @@
+/**
+ *
+ * CONFIGURABLE PHP 5.3 FPM SERVER
+ *
+ * This is an example of an application component that contains php5.3 and
+ * php-fpm. In this example the user can edit the PHP memory limit, max
+ * execution time and the php-fpm max children.
+ *
+ */
+{
+  "title": "Configurable php-fpm 5.3 server",
+  "desc": "This component contains a minimally configurable php-fpm server using php 5.3",
+  "name": "application-phpfpm53",
+  "image": {
+    "image": "kalabox/php-fpm53"
+  },
+  "build": {
+    "src": "git@github.com:kalabox/php-fpm53.git",
+    "dest": "/kalabox/build/container/application/php-fpm53",
+    "configuration": {
+      "/etc/php5/php.ini" : {
+        "memory_limit" : {
+          "label" : "Memory Limit",
+          "default" : "512M",
+        },
+        "max_execution_time" : {
+          "label" : "Max Execution Time",
+          "default" : "30",
+        }
+      },
+      "/etc/php5-fpm/pool.d/www.conf" : {
+        "pm.max_children" : {
+          "label" : "Max Children",
+          "defualt" : "6"
+        }
+      }
+    }
+  }
+}

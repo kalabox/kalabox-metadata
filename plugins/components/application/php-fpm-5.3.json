@@ -1,16 +1,16 @@
 /**
  *
- * PHP 5.3 FPM SERVER
+ * PHP 5.5 FPM SERVER
  *
  * This is an example of an application component that contains php5.3 and
- * php-fpm. This is the trivial example
+ * php-fpm. This is the trivial example.
  *
  */
 {
-  "title": "Empty application container",
-  "desc": "This container is empty but contains the normal folder structure for a Kalabox application.",
-  "name": "application-empty",
+  "title": "Monolithic php-fpm 5.3 server",
+  "desc": "This component contains an unalterable php-fpm server using php 5.3",
+  "name": "application-phpfpm53",
   "image": {
-    "image": "pirog/kaladata-docker"
+    "image": "kalabox/php-fpm53"
   }
 }

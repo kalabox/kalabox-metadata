@@ -5,7 +5,7 @@
  * This is an example of a data container that contains
  * no application. It would be used as a "start state" for a blank
  * new project or before a site is pulled from a switchboard
- * provider.
+ * provider. This is a trivial example.
  *
  */
 {
@@ -13,6 +13,6 @@
   "desc": "This container is empty but contains the normal folder structure for a Kalabox application.",
   "name": "data-empty",
   "image": {
-  	"image": "pirog/kaladata-docker"
+  	"image": "kalabox/kaladata-docker"
   }
 }

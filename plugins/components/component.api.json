@@ -13,20 +13,20 @@
  * the ui and build a container with it.
  *
  * Kalabox Dockerfile Axiom 1:
- * pirog/kalastack-docker/Dockerfile = Kalabox.buildDockerFile(component.json)
+ * kalabox/kalastack-docker = Kalabox.buildDockerFile(component.json)
  *
  * The configuration array should contain the appropriate metadata so Kalabox
  * can grab it and create a config form for the user.
  *
  */
 {
-  "title": "Empty application container",
-  "desc": "This container is empty but contains the normal folder structure for a Kalabox application.",
-  "name": "application-empty",
+  "title": "My Awesome Component",
+  "desc": "My awesome component description goes here.",
+  "name": "type-identifier",
   "image": {
-    "image": "pirog/kaladata-docker"
+    "image": "kalabox/kaladata-docker"
   },
-    "build": {
+  "build": {
     "src": "git@github.com:kalabox/kalastack-docker.git",
     "dest": "/kalabox/build/container/kalastack-docker",
     "configuration": {
