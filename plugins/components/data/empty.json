@@ -2,16 +2,16 @@
  *
  * EMPTY DATA CONTAINER
  *
- * This is an example of an application container that contains
- * no application. It would be used as a "start state" for a blank 
- * new project or before a site is pulled from a switchboard 
+ * This is an example of a data container that contains
+ * no application. It would be used as a "start state" for a blank
+ * new project or before a site is pulled from a switchboard
  * provider.
- * 
+ *
  */
 {
   "title": "Empty application container",
   "desc": "This container is empty but contains the normal folder structure for a Kalabox application.",
-  "name": "application-empty",
+  "name": "data-empty",
   "image": {
   	"image": "pirog/kaladata-docker"
   }
