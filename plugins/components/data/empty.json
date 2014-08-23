@@ -13,6 +13,6 @@
   "desc": "This container is empty but contains the normal folder structure for a Kalabox application.",
   "name": "data-empty",
   "image": {
-  	"image": "kalabox/kaladata-docker"
+    "image": "kalabox/kaladata-docker"
   }
 }

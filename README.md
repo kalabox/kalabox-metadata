@@ -1,6 +1,10 @@
 # Kalabox Plugins
 
-This will be the canonical repository for what kalabox plugins will look like
+This will be the canonical documentation for what kalabox plugins and site-instance data will look like
+
+## Site Instance Data
+
+STUFF GOES HERE
 
 ## Plugin Types
 
