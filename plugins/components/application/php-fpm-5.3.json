@@ -1,6 +1,6 @@
 /**
  *
- * PHP 5.5 FPM SERVER
+ * PHP 5.3 FPM SERVER
  *
  * This is an example of an application component that contains php5.3 and
  * php-fpm. This is the trivial example.
