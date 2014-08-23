@@ -8,19 +8,19 @@ This will be the canonical repository for what kalabox plugins will look like
 
 This would be a single service like mysql. It would include the location of an image or a docker build location. In the future build use case we would also include some configuration we would want to customize things like php_memory_limit. We prob want to separate them out into specific folders like "data, webserver, db, index, keyvalue, php".
 
-#### Application Component
+**Application Component**
 
 A server running something like php-fpm.
 
-#### Data Component
+**Data Component**
 
 A busybox container used to house the data for your project so as to decouple the project from the underlying archicture. This usually will just be an empty container but could also contain application start states like Drupal 7, Panopoly or Wordpress.
 
-#### Database Component
+**Database Component**
 
 A server running something like mariadb or mysql.
 
-#### Webserver Component
+**Webserver Component**
 
 A server running something like apache or nginx.
 
