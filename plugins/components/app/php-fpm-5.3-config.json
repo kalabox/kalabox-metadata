@@ -10,7 +10,7 @@
 {
   "title": "Configurable php-fpm 5.3 server",
   "desc": "This component contains a minimally configurable php-fpm server using php 5.3",
-  "name": "application-phpfpm53",
+  "name": "app-phpfpm53",
   "image": {
     "image": "kalabox/php-fpm53"
   },

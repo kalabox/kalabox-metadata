@@ -1,0 +1,40 @@
+/**
+ *
+ * PANTHEON SERVER
+ *
+ * This is an example of a docker profile. The docker profile will 
+ * contains a collection of component plugins, how they should be
+ * arranged, what docker run options need to be executed and whether
+ * some components require custom config. 
+ *
+ * The components will be separated into "required" and "optional".
+ * Optional components mean the user can select to use them or not
+ * and they will include things like solr or redis.
+ * 
+ */
+{
+  "title": "Unofficial Pantheon Mock Environment",
+  "desc": "This profile attempts to mimic the Pantheon environment by matching major software versions.",
+  "name": "pantheon",
+  "required": {
+    "app": {
+      "component": "php-fpm-5.3-conf",
+      "options": {},
+      "conf" : {}
+    },
+    "data": {
+      "component": "empty",
+      "options": {}
+    },
+    "db": {
+      "component": "mariadb-5.5-conf",
+      "options": {},
+      "conf" : {}
+    },
+    "web": {
+      "component": "nginx-1.4",
+      "options": {}
+    }
+  },
+  "optional": {},
+}

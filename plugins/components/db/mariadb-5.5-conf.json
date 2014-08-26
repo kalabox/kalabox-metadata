@@ -1,0 +1,28 @@
+/**
+ *
+ * CONFIGURABLE MARIADB 5.5 SERVER
+ *
+ * This is an example of an application component that contains mariadb 5.5.
+ * In this example the user can edit the key_buffer.
+ *
+ */
+{
+  "title": "Configurable MariaDB 5.5 server",
+  "desc": "This is MariaDB5.5 server that allows very minimal conf.",
+  "name": "db-maria55",
+  "image": {
+    "image": "kalabox/maria55-conf"
+  },
+  "build": {
+    "src": "git@github.com:kalabox/maria55-conf",
+    "dest": "/kalabox/build/container/db/maria55",
+    "configuration": {
+      "/etc/maria/my.cnf" : {
+        "key_buffer" : {
+          "label" : "Key Buffer",
+          "default" : "384M",
+        }
+      }
+    }
+  }
+}

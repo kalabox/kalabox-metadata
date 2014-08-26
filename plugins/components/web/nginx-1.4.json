@@ -1,0 +1,16 @@
+/**
+ *
+ * MONOLITHIC MARIADB 5.5 SERVER
+ *
+ * This is an example of an application component that contains mariadb 5.5.
+ * In this example the user can edit the key_buffer.
+ *
+ */
+{
+  "title": "Monolithic nginx 1.4 server",
+  "desc": "This is a nginx 1.4 server. WYSIWYG.",
+  "name": "web-nginx14",
+  "image": {
+    "image": "kalabox/nginx14"
+  }
+}
